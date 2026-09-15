@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import PageIntro from '../components/PageIntro';
 import PostCard from '../components/PostCard';
-import { postCategories, posts } from '../data/writing';
+import { postCategories, posts } from '../content';
 
 export default function Writing() {
   const [category, setCategory] = useState<(typeof postCategories)[number]>('All');

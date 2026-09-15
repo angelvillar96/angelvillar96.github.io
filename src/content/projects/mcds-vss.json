@@ -1,0 +1,10 @@
+{
+  "title": "MCDS-VSS",
+  "kicker": "Scene understanding · BMVC 2024",
+  "description": "Video semantic segmentation for moving cameras using geometry and motion as self-supervision.",
+  "tags": ["Segmentation", "Geometry", "Motion"],
+  "href": "https://sites.google.com/view/mcds-vss/home",
+  "accent": "green",
+  "group": "research",
+  "order": 3
+}

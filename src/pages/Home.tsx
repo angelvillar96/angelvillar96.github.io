@@ -2,7 +2,7 @@ import { ArrowRight, ArrowUpRight, Github, Mail } from '../components/Icons';
 import ProjectCard from '../components/ProjectCard';
 import PublicationItem from '../components/PublicationItem';
 import SectionHeading from '../components/SectionHeading';
-import { projects } from '../data/projects';
+import { projects } from '../content';
 import { publications } from '../data/publications';
 import { researchThemes, site } from '../data/site';
 

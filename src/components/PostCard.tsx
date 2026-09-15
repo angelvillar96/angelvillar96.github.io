@@ -1,7 +1,7 @@
-import type { Post } from '../data/writing';
+import type { BlogPost } from '../content/types';
 import { ArrowUpRight } from './Icons';
 
-function CardContent({ post }: { post: Post }) {
+function CardContent({ post }: { post: BlogPost }) {
   return (
     <>
       <div className="post-meta">
@@ -14,17 +14,15 @@ function CardContent({ post }: { post: Post }) {
         <ul className="tag-list compact">
           {post.tags.map((tag) => <li key={tag}>{tag}</li>)}
         </ul>
-        {post.href && <ArrowUpRight />}
+        <ArrowUpRight />
       </div>
     </>
   );
 }
 
-export default function PostCard({ post }: { post: Post }) {
-  if (!post.href) return <article className="post-card"><CardContent post={post} /></article>;
-
+export default function PostCard({ post }: { post: BlogPost }) {
   return (
-    <a className="post-card" href={post.href} target="_blank" rel="noreferrer">
+    <a className="post-card" href={`/blog/${post.slug}`}>
       <CardContent post={post} />
     </a>
   );

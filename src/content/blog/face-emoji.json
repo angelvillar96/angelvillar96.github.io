@@ -1,0 +1,13 @@
+{
+  "title": "FaceEmoji: When Faces Become Emojis",
+  "date": "2020-02-11",
+  "displayDate": "11 February 2020",
+  "description": "A weekend project combining face detection and expression classification.",
+  "tags": ["Projects", "Computer vision", "Image processing"],
+  "body": [
+    "This project uses image-processing techniques for face detection and a deep-learning model for expression recognition.",
+    "Each detected face is replaced with an emoji corresponding to the predicted expression. It was a fun weekend project developed with my flatmate."
+  ],
+  "externalLink": "https://github.com/angelvillar96/FaceEmoji",
+  "externalLabel": "View the repository"
+}

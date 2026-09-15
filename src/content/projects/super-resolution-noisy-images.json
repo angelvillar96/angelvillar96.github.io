@@ -1,0 +1,10 @@
+{
+  "title": "Super-resolution of Noisy Images",
+  "kicker": "Image restoration · ICASSP 2021",
+  "description": "Neural architectures that combine denoising with state-of-the-art image super-resolution.",
+  "tags": ["Super-resolution", "Denoising", "Vision"],
+  "href": "https://github.com/angelvillar96/super-resolution-noisy-images",
+  "accent": "orange",
+  "group": "research",
+  "order": 8
+}

@@ -1,0 +1,13 @@
+{
+  "title": "RoboCup Soccer 2023 Winner Paper",
+  "date": "2024-01-20",
+  "displayDate": "20 January 2024",
+  "description": "Our NimbRo platform paper covers the perception, kicking, and gait modules behind the 2023 Humanoid AdultSize win.",
+  "tags": ["Research", "RoboCup", "Robotics"],
+  "body": [
+    "Our RoboCup Humanoid 2023 winner paper was accepted for publication at RoboCup 2023: Robot World Cup XXVI.",
+    "The paper describes our winning robot platform, including the latest updates to the robot perception, kicking, and gait modules."
+  ],
+  "externalLink": "https://arxiv.org/abs/2401.05909",
+  "externalLabel": "Read the paper"
+}

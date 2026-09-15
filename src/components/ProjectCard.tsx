@@ -1,4 +1,4 @@
-import type { Project } from '../data/projects';
+import type { Project } from '../content/types';
 import { ArrowUpRight } from './Icons';
 
 export default function ProjectCard({ project }: { project: Project }) {

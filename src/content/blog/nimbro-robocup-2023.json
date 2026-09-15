@@ -1,0 +1,13 @@
+{
+  "title": "NimbRo Soccer at RoboCup 2023",
+  "date": "2023-07-19",
+  "displayDate": "19 July 2023",
+  "description": "A field note from Bordeaux, where team NimbRo won the AdultSize robot soccer competition with an aggregate score of 66–0.",
+  "tags": ["Life", "RoboCup", "Travel"],
+  "body": [
+    "Our team NimbRo won the AdultSize Robot Soccer competition at RoboCup 2023.",
+    "During the first week of July, we travelled to Bordeaux, France, where our robots competed in soccer games against robots from other universities. Our robots won the tournament with an aggregate score of 66–0."
+  ],
+  "externalLink": "https://www.ais.uni-bonn.de/nimbro/Humanoid/",
+  "externalLabel": "Meet team NimbRo"
+}

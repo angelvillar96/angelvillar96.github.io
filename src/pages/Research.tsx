@@ -3,7 +3,7 @@ import PageIntro from '../components/PageIntro';
 import ProjectCard from '../components/ProjectCard';
 import PublicationItem from '../components/PublicationItem';
 import SectionHeading from '../components/SectionHeading';
-import { projects } from '../data/projects';
+import { projects } from '../content';
 import { publications, publicationYears } from '../data/publications';
 
 export default function Research() {

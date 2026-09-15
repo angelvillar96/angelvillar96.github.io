@@ -13,15 +13,17 @@ Create the production bundle with `npm run build`. The generated site is written
 
 ## Update content
 
-All site content lives in `src/data/`:
+Every blog post and project has its own file. The site finds new files automatically:
 
-- `site.ts` — name, biography, portrait, contact, and social links
-- `publications.ts` — papers, authors, venues, and links
-- `projects.ts` — project cards and featured work
-- `writing.ts` — tutorials and articles
-- `resume.ts` — experience, education, and expertise
+- `src/content/blog/` — one JSON file per blog post
+- `src/content/projects/` — one JSON file per project
+- `src/data/site.ts` — name, biography, portrait, contact, and social links
+- `src/data/publications.ts` — papers, authors, venues, and links
+- `src/data/resume.ts` — experience, education, awards, and expertise
 
 Pages live in `src/pages/`, reusable UI lives in `src/components/`, and the visual system is split across `src/styles/`.
+
+To add a blog post, duplicate one file in `src/content/blog/`, rename it to the URL you want, and edit its fields. For example, `my-new-post.json` becomes `/blog/my-new-post`. To add a project, do the same in `src/content/projects/`; its `order` number controls where it appears. No imports or components need to be changed.
 
 The résumé page includes a **Save as PDF** button that opens the browser’s print dialog with a dedicated print layout.
 

@@ -1,0 +1,13 @@
+{
+  "title": "HackZurich 2020",
+  "date": "2020-09-27",
+  "displayDate": "27 September 2020",
+  "description": "Forty hours, one sponsor challenge, and an unconventional remote edition of one of Europe’s largest hackathons.",
+  "tags": ["Life", "Hackathon", "Travel"],
+  "body": [
+    "I had the chance to participate in HackZurich 2020, one of Europe’s largest hackathons.",
+    "Over roughly forty hours, my team and I built a prototype for one of the sponsor challenges. Because of the COVID-19 pandemic, it was a rather unconventional edition of the event."
+  ],
+  "externalLink": "https://github.com/angelvillar96/SeeFood-HackZurich2020",
+  "externalLabel": "View the project"
+}

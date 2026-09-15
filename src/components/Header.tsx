@@ -33,7 +33,7 @@ export default function Header() {
 
         <nav className={open ? 'nav is-open' : 'nav'} aria-label="Primary navigation">
           {navigation.map(({ to, label }) => (
-            <a key={to} href={to} className={pathname === to ? 'active' : ''}>
+            <a key={to} href={to} className={(to === '/' ? pathname === '/' : pathname.startsWith(to)) ? 'active' : ''}>
               {label}
             </a>
           ))}

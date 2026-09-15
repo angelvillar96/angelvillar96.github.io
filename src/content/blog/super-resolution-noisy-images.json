@@ -1,0 +1,13 @@
+{
+  "title": "Architectural Designs for Super-Resolution of Noisy Images",
+  "date": "2021-02-13",
+  "displayDate": "13 February 2021",
+  "description": "Investigating how denoising modules can be combined with strong super-resolution models.",
+  "tags": ["Research", "Super-resolution", "Signal processing"],
+  "body": [
+    "In this work, we investigated deep-learning architectural designs for super-resolution of noisy images.",
+    "We introduced designs that combine a denoiser with a state-of-the-art model, then evaluated them against the baseline under several settings."
+  ],
+  "externalLink": "https://github.com/angelvillar96/super-resolution-noisy-images",
+  "externalLabel": "View the repository"
+}

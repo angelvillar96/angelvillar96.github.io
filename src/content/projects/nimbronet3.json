@@ -1,0 +1,10 @@
+{
+  "title": "NimbRoNet3",
+  "kicker": "Robot perception · RoboCup",
+  "description": "Real-time visual perception for a humanoid robot competing on the soccer field.",
+  "tags": ["Robotics", "Perception", "Real-time"],
+  "href": "https://github.com/angelvillar96/NimbRoNet3",
+  "accent": "green",
+  "group": "research",
+  "order": 5
+}

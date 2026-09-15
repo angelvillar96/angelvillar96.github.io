@@ -1,0 +1,10 @@
+{
+  "title": "PlaySlot",
+  "kicker": "World models · ICML 2025",
+  "description": "Controllable object-centric video prediction and planning through inverse latent dynamics.",
+  "tags": ["Object-centric", "Video", "Planning"],
+  "href": "https://play-slot.github.io/PlaySlot/",
+  "accent": "blue",
+  "group": "research",
+  "order": 1
+}

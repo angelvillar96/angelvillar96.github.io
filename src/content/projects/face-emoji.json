@@ -1,0 +1,10 @@
+{
+  "title": "FaceEmoji",
+  "kicker": "Weekend project · Computer vision",
+  "description": "Face detection and expression recognition that replaces each detected face with a matching emoji.",
+  "tags": ["Face detection", "Classification", "OpenCV"],
+  "href": "https://github.com/angelvillar96/FaceEmoji",
+  "accent": "violet",
+  "group": "other",
+  "order": 12
+}

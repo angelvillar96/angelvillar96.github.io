@@ -1,0 +1,10 @@
+{
+  "title": "Object-Centric Video Prediction",
+  "kicker": "Structured prediction · ICIP 2023",
+  "description": "Predictor transformers that decouple temporal dynamics from object interactions for consistent and interpretable forecasts.",
+  "tags": ["Object-centric", "Transformers", "Video"],
+  "href": "https://sites.google.com/view/ocvp-vp",
+  "accent": "blue",
+  "group": "research",
+  "order": 6
+}

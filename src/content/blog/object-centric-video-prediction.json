@@ -1,0 +1,13 @@
+{
+  "title": "Object-Centric Video Prediction",
+  "date": "2023-02-28",
+  "displayDate": "28 February 2023",
+  "description": "Predictor transformers that separate temporal dynamics from object interactions.",
+  "tags": ["Research", "Object-centric learning", "Video prediction"],
+  "body": [
+    "Our paper was accepted for publication at ICIP 2023.",
+    "We present a framework for object-centric video prediction and propose two transformer modules that decouple temporal dynamics from object interactions. The predictors outperform object-agnostic video prediction models on two datasets while learning consistent and interpretable object representations."
+  ],
+  "externalLink": "https://sites.google.com/view/ocvp-vp",
+  "externalLabel": "Visit the project"
+}
