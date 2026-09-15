@@ -1,0 +1,8 @@
+{
+  "title": "Deep Learning Architectural Designs for Super-Resolution of Noisy Images",
+  "authors": "A. Villar-Corrales, F. Schirrmacher, C. Rieß",
+  "venue": "IEEE ICASSP",
+  "tags": ["Super-resolution", "Image restoration"],
+  "paper": "https://arxiv.org/abs/2102.05105",
+  "code": "https://github.com/angelvillar96/super-resolution-noisy-images"
+}

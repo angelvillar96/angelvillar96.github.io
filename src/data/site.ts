@@ -43,3 +43,12 @@ export const researchThemes = [
       'Connecting perception, dynamics, and action so that robots can learn useful behavior from experience.',
   },
 ] as const;
+
+export const expertise = [
+  'Object-centric learning',
+  'Video prediction',
+  'Computer vision',
+  'Deep learning',
+  'Robot perception',
+  'PyTorch',
+] as const;

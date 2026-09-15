@@ -3,8 +3,7 @@ import PageIntro from '../components/PageIntro';
 import ProjectCard from '../components/ProjectCard';
 import PublicationItem from '../components/PublicationItem';
 import SectionHeading from '../components/SectionHeading';
-import { projects } from '../content';
-import { publications, publicationYears } from '../data/publications';
+import { projects, publications, publicationYears } from '../content';
 
 export default function Research() {
   const [year, setYear] = useState<number | 'All'>('All');

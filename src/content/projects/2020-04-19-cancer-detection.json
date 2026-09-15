@@ -5,6 +5,5 @@
   "tags": ["Medical imaging", "Classification", "Kaggle"],
   "href": "https://www.kaggle.com/c/histopathologic-cancer-detection",
   "accent": "green",
-  "group": "other",
-  "order": 13
+  "group": "other"
 }

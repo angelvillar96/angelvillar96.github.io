@@ -5,6 +5,5 @@
   "tags": ["Prediction", "Multi-scale", "PyTorch"],
   "href": "https://sites.google.com/view/mspred/home",
   "accent": "orange",
-  "group": "research",
-  "order": 4
+  "group": "research"
 }

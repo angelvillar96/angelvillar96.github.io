@@ -1,8 +1,7 @@
 import PageIntro from '../components/PageIntro';
 import { Download, ArrowUpRight } from '../components/Icons';
-import { awards, education, experience, expertise } from '../data/resume';
-import { publications } from '../data/publications';
-import { site } from '../data/site';
+import { awards, education, experience, publications } from '../content';
+import { expertise, site } from '../data/site';
 
 export default function Resume() {
   return (

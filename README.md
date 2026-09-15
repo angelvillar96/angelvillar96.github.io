@@ -13,17 +13,19 @@ Create the production bundle with `npm run build`. The generated site is written
 
 ## Update content
 
-Every blog post and project has its own file. The site finds new files automatically:
+Every blog post, project, and publication has its own file. The site finds new files automatically:
 
 - `src/content/blog/` — one JSON file per blog post
 - `src/content/projects/` — one JSON file per project
+- `src/content/publications/` — one JSON file per publication
+- `src/content/experience/` — one JSON file per position
+- `src/content/education/` — one JSON file per degree or study period
+- `src/content/awards/` — one JSON file per award
 - `src/data/site.ts` — name, biography, portrait, contact, and social links
-- `src/data/publications.ts` — papers, authors, venues, and links
-- `src/data/resume.ts` — experience, education, awards, and expertise
 
 Pages live in `src/pages/`, reusable UI lives in `src/components/`, and the visual system is split across `src/styles/`.
 
-To add a blog post, duplicate one file in `src/content/blog/`, rename it to the URL you want, and edit its fields. For example, `my-new-post.json` becomes `/blog/my-new-post`. To add a project, do the same in `src/content/projects/`; its `order` number controls where it appears. No imports or components need to be changed.
+To add an item, duplicate a nearby file in the appropriate `src/content/` folder, prefix the filename with its ISO date, and edit its fields. For example, `2026-09-15-my-new-post.json` becomes `/blog/my-new-post`. Files are ordered newest first automatically; no imports, indexes, or components need to be changed.
 
 The résumé page includes a **Save as PDF** button that opens the browser’s print dialog with a dedicated print layout.
 

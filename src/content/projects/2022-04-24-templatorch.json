@@ -5,6 +5,5 @@
   "tags": ["PyTorch", "Template", "Open source"],
   "href": "https://github.com/angelvillar96/TemplaTorch",
   "accent": "blue",
-  "group": "other",
-  "order": 10
+  "group": "other"
 }

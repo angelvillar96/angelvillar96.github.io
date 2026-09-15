@@ -1,4 +1,4 @@
-import type { Publication } from '../data/publications';
+import type { Publication } from '../content/types';
 import { ArrowUpRight } from './Icons';
 
 export default function PublicationItem({ publication }: { publication: Publication }) {

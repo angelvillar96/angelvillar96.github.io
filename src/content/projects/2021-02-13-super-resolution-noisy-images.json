@@ -5,6 +5,5 @@
   "tags": ["Super-resolution", "Denoising", "Vision"],
   "href": "https://github.com/angelvillar96/super-resolution-noisy-images",
   "accent": "orange",
-  "group": "research",
-  "order": 8
+  "group": "research"
 }

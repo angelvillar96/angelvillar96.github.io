@@ -1,0 +1,8 @@
+{
+  "title": "Enhancing Human Pose Estimation in Ancient Vase Paintings via Perceptually-Grounded Style Transfer Learning",
+  "authors": "P. Madhu, A. Villar-Corrales, R. Kosti, et al.",
+  "venue": "ACM Journal on Computing and Cultural Heritage",
+  "tags": ["Pose estimation", "Style transfer"],
+  "paper": "https://arxiv.org/abs/2012.05616",
+  "code": "https://github.com/angelvillar96/STLPose"
+}

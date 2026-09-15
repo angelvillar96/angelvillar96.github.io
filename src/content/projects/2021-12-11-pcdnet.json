@@ -5,6 +5,5 @@
   "tags": ["Decomposition", "Phase correlation", "PyTorch"],
   "href": "https://github.com/AIS-Bonn/Unsupervised-Decomposition-PCDNet",
   "accent": "violet",
-  "group": "research",
-  "order": 7
+  "group": "research"
 }

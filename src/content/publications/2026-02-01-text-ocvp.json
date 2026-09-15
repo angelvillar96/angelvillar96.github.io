@@ -1,0 +1,10 @@
+{
+  "title": "TextOCVP: Object-Centric Video Prediction with Language Guidance",
+  "authors": "A. Villar-Corrales, G. Plepi, S. Behnke",
+  "venue": "Transactions on Machine Learning Research",
+  "tags": ["Object-centric learning", "Video prediction", "Language"],
+  "paper": "https://arxiv.org/abs/2502.11655",
+  "code": "https://github.com/angelvillar96/TextOCVP",
+  "project": "https://play-slot.github.io/TextOCVP/",
+  "featured": true
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Tools for Semi-Automatic Bounding Box Annotation of Musical Measures in Sheet Music",
+  "authors": "F. Zalkow, A. Villar-Corrales, T.-J. Tsai, V. Arifi-Müller, M. Müller",
+  "venue": "ISMIR Late-Breaking Demo",
+  "tags": ["Computer vision", "Music information retrieval"],
+  "paper": "https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures"
+}

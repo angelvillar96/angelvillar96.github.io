@@ -1,0 +1,8 @@
+{
+  "title": "Object-Centric Video Prediction via Decoupling of Object Dynamics and Interactions",
+  "authors": "A. Villar-Corrales, I. Wahdan, S. Behnke",
+  "venue": "IEEE ICIP",
+  "tags": ["Object-centric learning", "Video prediction"],
+  "paper": "https://arxiv.org/abs/2302.11850",
+  "code": "https://github.com/AIS-Bonn/OCVP-object-centric-video-prediction"
+}

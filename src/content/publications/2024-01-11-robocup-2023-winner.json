@@ -1,0 +1,8 @@
+{
+  "title": "RoboCup 2023 Humanoid AdultSize Winner NimbRo: NimbRoNet3 Visual Perception and Responsive Gait with Waveform In-Walk Kicks",
+  "authors": "D. Pavlichenko, G. Ficht, A. Villar-Corrales, et al.",
+  "venue": "RoboCup Symposium",
+  "tags": ["Robotics", "Perception"],
+  "paper": "https://arxiv.org/abs/2401.05909",
+  "code": "https://github.com/angelvillar96/NimbRoNet3"
+}

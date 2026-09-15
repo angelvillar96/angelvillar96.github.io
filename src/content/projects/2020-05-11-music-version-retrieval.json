@@ -5,6 +5,5 @@
   "tags": ["Metric learning", "Audio", "Retrieval"],
   "href": "https://www.audiolabs-erlangen.de/",
   "accent": "green",
-  "group": "research",
-  "order": 9
+  "group": "research"
 }

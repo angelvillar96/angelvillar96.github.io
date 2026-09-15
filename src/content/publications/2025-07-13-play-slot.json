@@ -1,0 +1,10 @@
+{
+  "title": "PlaySlot: Learning Inverse Latent Dynamics for Controllable Object-Centric Video Prediction and Planning",
+  "authors": "A. Villar-Corrales, S. Behnke",
+  "venue": "ICML",
+  "tags": ["Object-centric learning", "Video prediction", "Robotics"],
+  "paper": "https://arxiv.org/abs/2502.07600",
+  "code": "https://github.com/angelvillar96/PlaySlot",
+  "project": "https://play-slot.github.io/PlaySlot/",
+  "featured": true
+}

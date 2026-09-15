@@ -3,7 +3,7 @@ import { copyFileSync, mkdirSync, readdirSync } from 'node:fs';
 // GitHub Pages serves each clean URL from a matching folder.
 const blogRoutes = readdirSync('src/content/blog')
   .filter((file) => file.endsWith('.json'))
-  .map((file) => `blog/${file.replace('.json', '')}`);
+  .map((file) => `blog/${file.replace('.json', '').replace(/^\d{4}-\d{2}-\d{2}-/, '')}`);
 
 const routes = ['research', 'blog', 'resume', ...blogRoutes];
 

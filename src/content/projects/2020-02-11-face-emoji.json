@@ -5,6 +5,5 @@
   "tags": ["Face detection", "Classification", "OpenCV"],
   "href": "https://github.com/angelvillar96/FaceEmoji",
   "accent": "violet",
-  "group": "other",
-  "order": 12
+  "group": "other"
 }
