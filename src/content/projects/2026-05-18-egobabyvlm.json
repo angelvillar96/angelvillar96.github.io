@@ -1,0 +1,8 @@
+{
+  "title": "EgoBabyVLM",
+  "kicker": "Benchmark & challenge · NeurIPS 2026",
+  "description": "A benchmark and open challenge for vision-language learning from naturalistic, infant-perspective egocentric video.",
+  "href": "https://facebookresearch.github.io/egobabyvlm/",
+  "group": "research",
+  "image": "/images/publications/egobabyvlm.webp"
+}

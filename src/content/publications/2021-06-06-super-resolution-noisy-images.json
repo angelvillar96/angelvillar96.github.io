@@ -1,0 +1,20 @@
+{
+  "title": "Deep Learning Architectural Designs for Super-Resolution of Noisy Images",
+  "authors": [
+    "Angel Villar-Corrales",
+    "Franziska Schirrmacher",
+    "Christian Riess"
+  ],
+  "venue": "ICASSP 2021",
+  "venueFull": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+  "type": "conference",
+  "summary": "Studies joint denoising and super-resolution with two designs: 'in-network' fuses denoising at the feature level, and 'pre-network' denoises before upsampling. In-network works best when training and test noise match; pre-network generalizes better to unseen corruptions.",
+  "image": "/images/publications/super-resolution-noisy-images.webp",
+  "links": {
+    "paper": "https://doi.org/10.1109/ICASSP39728.2021.9414733",
+    "arxiv": "https://arxiv.org/abs/2102.05105",
+    "pdf": "https://arxiv.org/pdf/2102.05105",
+    "code": "https://github.com/angelvillar96/super-resolution-noisy-images"
+  },
+  "bibtex": "@inproceedings{villarcorrales2021deep,\n  author    = {Villar-Corrales, Angel and Schirrmacher, Franziska and Riess, Christian},\n  title     = {Deep Learning Architectural Designs for Super-Resolution of Noisy Images},\n  booktitle = {ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n  pages     = {1635--1639},\n  year      = {2021},\n  month     = jun,\n  address   = {Toronto, ON, Canada},\n  publisher = {IEEE},\n  doi       = {10.1109/ICASSP39728.2021.9414733}\n}"
+}

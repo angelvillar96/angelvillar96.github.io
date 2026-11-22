@@ -1,0 +1,23 @@
+{
+  "title": "MCDS-VSS: Moving Camera Dynamic Scene Video Semantic Segmentation by Filtering with Self-Supervised Geometry and Motion",
+  "authors": [
+    "Angel Villar-Corrales",
+    "Moritz Austermann",
+    "Sven Behnke"
+  ],
+  "venue": "BMVC 2024",
+  "venueFull": "British Machine Vision Conference (BMVC)",
+  "type": "conference",
+  "summary": "MCDS-VSS is a structured filter model that learns scene geometry, camera ego-motion and object motion through self-supervision. It uses them to make video semantic segmentation of driving scenes more temporally consistent without losing segmentation accuracy.",
+  "image": "/images/publications/mcds-vss.webp",
+  "links": {
+    "paper": "https://bmvc2024.org/proceedings/147/",
+    "arxiv": "https://arxiv.org/abs/2405.19921",
+    "pdf": "https://bmva-archive.org.uk/bmvc/2024/papers/Paper_147/paper.pdf",
+    "project": "https://sites.google.com/view/mcds-vss/home",
+    "video": "https://bmva-archive.org.uk/bmvc/2024/papers/Paper_147/video.mp4",
+    "poster": "https://bmva-archive.org.uk/bmvc/2024/papers/Paper_147/poster.pdf"
+  },
+  "bibtex": "@inproceedings{Villar-Corrales_2024_BMVC,\n  author    = {Angel Villar-Corrales and Moritz Austermann and Sven Behnke},\n  title     = {MCDS-VSS: Moving Camera Dynamic Scene Video Semantic Segmentation by Filtering with Self-Supervised Geometry and Motion},\n  booktitle = {35th British Machine Vision Conference 2024, {BMVC} 2024, Glasgow, UK, November 25-28, 2024},\n  publisher = {BMVA},\n  year      = {2024},\n  url       = {https://bmva-archive.org.uk/bmvc/2024/papers/Paper_147/paper.pdf}\n}",
+  "featured": true
+}

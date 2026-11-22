@@ -1,0 +1,23 @@
+{
+  "title": "Tools for Semi-Automatic Bounding Box Annotation of Musical Measures in Sheet Music",
+  "authors": [
+    "Frank Zalkow",
+    "Angel Villar-Corrales",
+    "TJ Tsai",
+    "Vlora Arifi-Müller",
+    "Meinard Müller"
+  ],
+  "venue": "ISMIR LBD 2019",
+  "venueFull": "ISMIR Late-Breaking/Demo Session",
+  "type": "workshop",
+  "summary": "Presents semi-automatic tools for finding bounding boxes of musical measures in scanned sheet music, a tedious step when building score-following applications. The accompanying page also releases measure annotations for several hundred pages of sheet music.",
+  "image": "/images/publications/musical-measure-annotation.webp",
+  "links": {
+    "paper": "https://archives.ismir.net/ismir2019/latebreaking/000006.pdf",
+    "project": "https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures",
+    "demo": "https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures/jupyter/visualize_bounding_box.html",
+    "poster": "https://github.com/keunwoochoi/ismir-2019-posters/blob/master/posters/L-06-Measure-Boundaries.png",
+    "dataset": "https://www.audiolabs-erlangen.de/resources/MIR/2019-ISMIR-LBD-Measures/MeasureBoundingBoxAnnotations.zip"
+  },
+  "bibtex": "@inproceedings{2019_ZalkowVTAM_MeasureAnnotation_ISMIR-LBD,\n  author    = {Frank Zalkow and Angel Villar Corrales and TJ Tsai and Vlora Arifi-M{\\\"u}ller and Meinard M{\\\"u}ller},\n  title     = {Tools for Semi-Automatic Bounding Box Annotation of Musical Measures in Sheet Music},\n  booktitle = {Demos and Late Breaking News of the International Society for Music Information Retrieval Conference ({ISMIR})},\n  address   = {Delft, The Netherlands},\n  year      = {2019},\n  url       = {https://archives.ismir.net/ismir2019/latebreaking/000006.pdf}\n}"
+}

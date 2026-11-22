@@ -1,0 +1,28 @@
+{
+  "title": "RoboCup 2022 AdultSize Winner NimbRo: Upgraded Perception, Capture Steps Gait and Phase-Based In-Walk Kicks",
+  "authors": [
+    "Dmytro Pavlichenko",
+    "Grzegorz Ficht",
+    "Arash Amini",
+    "Mojtaba Hosseini",
+    "Raphael Memmesheimer",
+    "Angel Villar-Corrales",
+    "Stefan M. Schulz",
+    "Marcell Missura",
+    "Maren Bennewitz",
+    "Sven Behnke"
+  ],
+  "venue": "RoboCup 2022",
+  "venueFull": "RoboCup 2022: Robot World Cup XXV (Springer LNCS)",
+  "type": "conference",
+  "summary": "Describes the upgrades that let team NimbRo win the RoboCup 2022 Humanoid AdultSize soccer tournament, drop-in games and technical challenges: a new vision module, balanced walking with Capture Steps, and phase-based in-walk kicks.",
+  "image": "/images/publications/robocup-2022-winner.webp",
+  "links": {
+    "paper": "https://doi.org/10.1007/978-3-031-28469-4_20",
+    "arxiv": "https://arxiv.org/abs/2302.02956",
+    "pdf": "https://arxiv.org/pdf/2302.02956",
+    "project": "https://www.ais.uni-bonn.de/nimbro/Humanoid/",
+    "video": "https://www.youtube.com/watch?v=ukVcf3cxEYc"
+  },
+  "bibtex": "@inproceedings{pavlichenko2023robocup2022,\n  title     = {{RoboCup} 2022 {AdultSize} Winner {NimbRo}: Upgraded Perception, Capture Steps Gait and Phase-Based In-Walk Kicks},\n  author    = {Pavlichenko, Dmytro and Ficht, Grzegorz and Amini, Arash and Hosseini, Mojtaba and Memmesheimer, Raphael and Villar-Corrales, Angel and Schulz, Stefan M. and Missura, Marcell and Bennewitz, Maren and Behnke, Sven},\n  booktitle = {RoboCup 2022: Robot World Cup XXV},\n  editor    = {Eguchi, Amy and Lau, Nuno and Paetzel-Pr{\\\"u}smann, Maike and Wanichanon, Thanapat},\n  series    = {Lecture Notes in Computer Science},\n  volume    = {13561},\n  pages     = {240--252},\n  publisher = {Springer},\n  address   = {Cham},\n  year      = {2023},\n  doi       = {10.1007/978-3-031-28469-4_20}\n}"
+}

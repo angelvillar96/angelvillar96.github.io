@@ -1,61 +1,65 @@
 import { useEffect, useState } from 'react';
-import { Close, Menu, Moon, Sun } from './Icons';
-
-const navigation = [
-  { to: '/', label: 'Home' },
-  { to: '/research', label: 'Research' },
-  { to: '/blog', label: 'Blog' },
-  { to: '/resume', label: 'Résumé' },
-];
+import { navigation } from '../routes';
+import { site } from '../data/site';
+import { Moon, Sun } from './Icons';
 
 type Theme = 'light' | 'dark';
 
-export default function Header() {
-  const [open, setOpen] = useState(false);
-  const [theme, setTheme] = useState<Theme>(() => {
-    const saved = localStorage.getItem('theme');
-    if (saved === 'light' || saved === 'dark') return saved;
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  });
-  const pathname = window.location.pathname.replace(/\/$/, '') || '/';
+const THEME_COLORS: Record<Theme, string> = { light: '#ffffff', dark: '#111418' };
 
-  useEffect(() => {
-    document.documentElement.dataset.theme = theme;
+function applyTheme(theme: Theme) {
+  document.documentElement.dataset.theme = theme;
+  document.querySelectorAll('meta[name="theme-color"]').forEach((meta) => {
+    meta.removeAttribute('media');
+    meta.setAttribute('content', THEME_COLORS[theme]);
+  });
+  try {
     localStorage.setItem('theme', theme);
-  }, [theme]);
+  } catch {
+    // Storage can be unavailable (private mode); the toggle still works for this visit.
+  }
+}
+
+export default function Header({ activePath }: { activePath: string }) {
+  // The inline script in index.html sets the initial theme before the page paints.
+  const [dark, setDark] = useState(false);
+  useEffect(() => setDark(document.documentElement.dataset.theme === 'dark'), []);
+
+  const toggle = () => {
+    const next: Theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    setDark(next === 'dark');
+  };
 
   return (
     <header className="site-header">
-      <div className="shell header-inner">
-        <a className="monogram" href="/" aria-label="Angel Villar-Corrales, home">
-          <span>AV</span><i>C</i>
-        </a>
-
-        <nav className={open ? 'nav is-open' : 'nav'} aria-label="Primary navigation">
-          {navigation.map(({ to, label }) => (
-            <a key={to} href={to} className={(to === '/' ? pathname === '/' : pathname.startsWith(to)) ? 'active' : ''}>
-              {label}
-            </a>
-          ))}
+      <div className="container header-inner">
+        <a className="brand" href="/">{site.name}</a>
+        <nav className="tabs" aria-label="Main">
+          {navigation.map(({ href, label, newTab }) =>
+            newTab ? (
+              <a key={href} href={href} target="_blank" rel="noopener" title="CV (PDF), opens in a new tab">
+                {label}
+                <span className="visually-hidden"> (PDF, opens in a new tab)</span>
+              </a>
+            ) : (
+              <a key={href} href={href} aria-current={href === activePath ? 'page' : undefined}>
+                {label}
+              </a>
+            ),
+          )}
         </nav>
-
-        <div className="header-actions">
-          <button
-            className="icon-button"
-            onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-            aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} theme`}
-          >
-            {theme === 'light' ? <Moon /> : <Sun />}
-          </button>
-          <button
-            className="icon-button menu-button"
-            onClick={() => setOpen((value) => !value)}
-            aria-expanded={open}
-            aria-label="Toggle menu"
-          >
-            {open ? <Close /> : <Menu />}
-          </button>
-        </div>
+        <button
+          type="button"
+          className="theme-toggle"
+          onClick={toggle}
+          aria-pressed={dark}
+          aria-label="Dark theme"
+          title="Toggle dark theme"
+        >
+          <Moon className="icon-moon" />
+          <Sun className="icon-sun" />
+        </button>
       </div>
     </header>
   );

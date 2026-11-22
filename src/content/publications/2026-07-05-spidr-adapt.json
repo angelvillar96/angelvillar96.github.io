@@ -1,0 +1,37 @@
+{
+  "title": "SpidR-Adapt: A Universal Speech Representation Model for Few-Shot Adaptation",
+  "authors": [
+    "Mahi Luthra*",
+    "Jiayi Shen*",
+    "Maxime Poli*",
+    "Angelo Ortiz Tandazo",
+    "Yosuke Higuchi",
+    "Youssef Benchekroun",
+    "Martin Gleize",
+    "Charles-Éric Saint-James",
+    "Dongyan Lin",
+    "Phillip Rust",
+    "Angel Villar-Corrales",
+    "Surya Parimi",
+    "Vanessa Stark",
+    "Rashel Moritz",
+    "Juan Pino",
+    "Yann LeCun",
+    "Emmanuel Dupoux"
+  ],
+  "venue": "ACL 2026",
+  "venueFull": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+  "type": "conference",
+  "highlight": "Oral",
+  "summary": "SpidR-Adapt treats low-resource speech representation learning as meta-learning. It combines multi-task adaptive pre-training, first-order bi-level optimization and interleaved supervision to adapt speech units to new languages with under one hour of unlabeled audio, about 100x more data-efficient than standard multi-task training.",
+  "image": "/images/publications/spidr-adapt.webp",
+  "links": {
+    "paper": "https://aclanthology.org/2026.acl-long.1325/",
+    "arxiv": "https://arxiv.org/abs/2512.21204",
+    "pdf": "https://aclanthology.org/2026.acl-long.1325.pdf",
+    "code": "https://github.com/facebookresearch/spidr-adapt",
+    "video": "https://underline.io/lecture/150102-spidr-adapt-a-universal-speech-representation-model-for-few-shot-adaptation",
+    "model": "https://github.com/facebookresearch/spidr-adapt#meta-train-checkpoints"
+  },
+  "bibtex": "@inproceedings{luthra-etal-2026-spidr,\n    title = \"{S}pid{R}-Adapt: A Universal Speech Representation Model for Few-Shot Adaptation\",\n    author = \"Luthra, Mahi  and\n      Shen, Jiayi  and\n      Poli, Maxime  and\n      Ortiz Tandazo, Angelo  and\n      Higuchi, Yosuke  and\n      Benchekroun, Youssef  and\n      Gleize, Martin  and\n      Saint-James, Charles-Eric  and\n      Lin, Dongyan  and\n      Rust, Phillip  and\n      Villar, Angel  and\n      Parimi, Surya  and\n      Stark, Vanessa  and\n      Moritz, Rashel  and\n      Pino, Juan  and\n      LeCun, Yann  and\n      Dupoux, Emmanuel\",\n    editor = \"Liakata, Maria  and\n      Moreira, Viviane P.  and\n      Zhang, Jiajun  and\n      Jurgens, David\",\n    booktitle = \"Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2026\",\n    address = \"San Diego, California, United States\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2026.acl-long.1325/\",\n    doi = \"10.18653/v1/2026.acl-long.1325\",\n    pages = \"28705--28728\",\n    ISBN = \"979-8-89176-390-6\"\n}"
+}

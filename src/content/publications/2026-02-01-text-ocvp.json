@@ -1,10 +1,23 @@
 {
   "title": "TextOCVP: Object-Centric Video Prediction with Language Guidance",
-  "authors": "A. Villar-Corrales, G. Plepi, S. Behnke",
-  "venue": "Transactions on Machine Learning Research",
-  "tags": ["Object-centric learning", "Video prediction", "Language"],
-  "paper": "https://arxiv.org/abs/2502.11655",
-  "code": "https://github.com/angelvillar96/TextOCVP",
-  "project": "https://play-slot.github.io/TextOCVP/",
+  "authors": [
+    "Angel Villar-Corrales*",
+    "Gjergj Plepi*",
+    "Sven Behnke"
+  ],
+  "venue": "TMLR 2026",
+  "venueFull": "Transactions on Machine Learning Research (TMLR)",
+  "type": "journal",
+  "summary": "TextOCVP is an object-centric video prediction model. It parses a scene into object slots and uses a text-conditioned transformer to forecast future object states and frames. This gives controllable, interpretable predictions that outperform video prediction baselines on two datasets.",
+  "image": "/images/publications/text-ocvp.webp",
+  "links": {
+    "paper": "https://openreview.net/forum?id=7JEgXCyQgX",
+    "arxiv": "https://arxiv.org/abs/2502.11655",
+    "pdf": "https://arxiv.org/pdf/2502.11655",
+    "code": "https://github.com/angelvillar96/TextOCVP",
+    "project": "https://play-slot.github.io/TextOCVP/",
+    "video": "https://play-slot.github.io/TextOCVP/video.mp4"
+  },
+  "bibtex": "@article{villar-corrales2026textocvp,\n  title   = {Text{OCVP}: Object-Centric Video Prediction with Language Guidance},\n  author  = {Angel Villar-Corrales and Gjergj Plepi and Sven Behnke},\n  journal = {Transactions on Machine Learning Research},\n  issn    = {2835-8856},\n  year    = {2026},\n  url     = {https://openreview.net/forum?id=7JEgXCyQgX}\n}",
   "featured": true
 }

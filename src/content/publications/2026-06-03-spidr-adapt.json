@@ -1,7 +1,0 @@
-{
-  "title": "SpidR-Adapt: A Universal Speech Representation Model for Few-Shot Adaptation",
-  "authors": "M. Luthra, J. Shen, M. Poli, et al., A. Villar-Corrales, et al.",
-  "venue": "ACL",
-  "tags": ["Representation learning", "Speech"],
-  "paper": "https://doi.org/10.18653/v1/2026.acl-long.1325"
-}

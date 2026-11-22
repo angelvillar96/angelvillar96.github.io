@@ -2,8 +2,5 @@
   "title": "Music Version Retrieval",
   "kicker": "Music information retrieval",
   "description": "Siamese networks and metric-learning losses for efficient cross-version retrieval of music recordings.",
-  "tags": ["Metric learning", "Audio", "Retrieval"],
-  "href": "https://www.audiolabs-erlangen.de/",
-  "accent": "green",
-  "group": "research"
+  "group": "other"
 }

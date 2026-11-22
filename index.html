@@ -3,15 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f4f1e8" />
-    <meta
-      name="description"
-      content="Angel Villar-Corrales — Research Scientist working on object-centric learning, video prediction, and intelligent systems."
-    />
-    <title>Angel Villar-Corrales — Research Scientist</title>
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#111418" media="(prefers-color-scheme: dark)" />
+    <script>
+      // Apply the saved or preferred color theme before the page paints.
+      (function () {
+        var theme;
+        try { theme = localStorage.getItem('theme'); } catch (e) {}
+        if (theme !== 'light' && theme !== 'dark') {
+          theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        document.documentElement.dataset.theme = theme;
+        var color = theme === 'dark' ? '#111418' : '#ffffff';
+        document.querySelectorAll('meta[name="theme-color"]').forEach(function (meta) {
+          meta.removeAttribute('media');
+          meta.setAttribute('content', color);
+        });
+      })();
+    </script>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!--head-->
+    <title>Angel Villar-Corrales — Research Scientist, FAIR at Meta</title>
+    <meta name="description" content="Research Scientist at FAIR (Meta) in Paris working on self-supervised speech and multimodal representation learning, world models, and video prediction." />
+    <!--/head-->
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"><!--app-html--></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

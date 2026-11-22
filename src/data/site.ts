@@ -1,54 +1,37 @@
+/**
+ * Profile information shown across the site.
+ * Text fields support [links](https://…), **bold**, and *italic*.
+ */
 export const site = {
   name: 'Angel Villar-Corrales',
-  shortName: 'AVC',
-  role: 'Research Scientist at FAIR, Meta',
+  /** Spellings of your name that are highlighted in author lists. */
+  authorAliases: ['Angel Villar-Corrales', 'Angel Villar Corrales', 'Ángel Villar-Corrales', 'A. Villar-Corrales'],
+  role: 'Research Scientist',
+  organization: 'FAIR at Meta',
+  organizationUrl: 'https://ai.meta.com/research/',
   location: 'Paris, France',
+  url: 'https://angelvillarcorrales.com',
   email: 'angelvillarcorrales@gmail.com',
-  academicEmail: 'villar@ais.uni-bonn.de',
   portrait: '/images/angel-villar-corrales.jpg',
-  intro:
-    'I build learning systems that understand objects, anticipate how scenes evolve, and turn visual experience into useful action.',
-  about:
-    'My research sits at the intersection of computer vision, object-centric learning, video prediction, and robotics. I am especially interested in structured world models: systems that can separate a scene into meaningful entities, reason about their interactions, and predict what could happen next.',
-  personal:
-    'Away from research, you can usually find me at a local metalcore concert, reading by the river, training for the next 10K, or catching up with friends at a nearby Biergarten.',
-  quote: 'Un mundo que recorrer, un futuro que conquistar.',
-  quoteSource: 'Riot Propaganda — El Peso del Tiempo',
+  socialImage: '/images/social-card.png',
+  description:
+    'Research Scientist at FAIR (Meta) in Paris working on self-supervised speech and multimodal representation learning, world models, and video prediction.',
+  bio: [
+    'I am a **Research Scientist** at [FAIR at Meta](https://ai.meta.com/research/) in Paris, where I work on self-supervised **speech and multimodal representation learning**: models that learn efficiently from raw speech and naturalistic egocentric video. More broadly, I am interested in how machines can learn compact, structured representations of the world and use them to predict, plan, and act.',
+    'Before joining FAIR, I was a doctoral researcher in the [Autonomous Intelligent Systems](https://www.ais.uni-bonn.de/) group at the University of Bonn, advised by [Prof. Sven Behnke](https://www.ais.uni-bonn.de/behnke/). There, I worked on **object-centric learning**, **video prediction**, and **world models**, and was part of team [NimbRo](https://www.ais.uni-bonn.de/nimbro/Humanoid/), which won the RoboCup Humanoid AdultSize soccer tournament in 2022 and 2023. Earlier, I studied at FAU Erlangen-Nürnberg and the University of Vigo.',
+  ],
+  interests: [
+    'representation learning',
+    'speech & multimodal learning',
+    'world models',
+    'object-centric learning',
+    'video prediction',
+    'robotics',
+  ],
   links: {
+    scholar: 'https://scholar.google.com/citations?user=NCUoKLMAAAAJ',
     github: 'https://github.com/angelvillar96',
-    orcid: 'https://orcid.org/0000-0001-5805-2098',
-    scholar:
-      'https://scholar.google.com/scholar?q=%22Angel+Villar-Corrales%22',
     linkedin: 'https://www.linkedin.com/in/angel-villar-corrales/',
+    orcid: 'https://orcid.org/0000-0001-5805-2098',
   },
 } as const;
-
-export const researchThemes = [
-  {
-    number: '01',
-    title: 'Object-centric learning',
-    description:
-      'Learning structured representations that organize a visual scene into objects and their relationships.',
-  },
-  {
-    number: '02',
-    title: 'Video & world models',
-    description:
-      'Predicting plausible futures across space and time, from pixels to compact latent representations.',
-  },
-  {
-    number: '03',
-    title: 'Embodied intelligence',
-    description:
-      'Connecting perception, dynamics, and action so that robots can learn useful behavior from experience.',
-  },
-] as const;
-
-export const expertise = [
-  'Object-centric learning',
-  'Video prediction',
-  'Computer vision',
-  'Deep learning',
-  'Robot perception',
-  'PyTorch',
-] as const;

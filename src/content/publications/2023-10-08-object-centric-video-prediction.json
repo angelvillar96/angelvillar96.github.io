@@ -1,0 +1,22 @@
+{
+  "title": "Object-Centric Video Prediction via Decoupling of Object Dynamics and Interactions",
+  "authors": [
+    "Angel Villar-Corrales",
+    "Ismail Wahdan",
+    "Sven Behnke"
+  ],
+  "venue": "ICIP 2023",
+  "venueFull": "IEEE International Conference on Image Processing (ICIP)",
+  "type": "conference",
+  "summary": "An object-centric video prediction framework with two transformer predictors (OCVP) that model object dynamics and object interactions separately. It beats object-agnostic video prediction models on two datasets while keeping object representations consistent.",
+  "image": "/images/publications/object-centric-video-prediction.webp",
+  "links": {
+    "paper": "https://doi.org/10.1109/ICIP49359.2023.10222810",
+    "arxiv": "https://arxiv.org/abs/2302.11850",
+    "pdf": "https://arxiv.org/pdf/2302.11850",
+    "code": "https://github.com/AIS-Bonn/OCVP-object-centric-video-prediction",
+    "project": "https://sites.google.com/view/ocvp-vp",
+    "video": "https://www.ais.uni-bonn.de/videos/ICIP_2023_Villar"
+  },
+  "bibtex": "@inproceedings{villarcorrales2023ocvp,\n  title     = {Object-Centric Video Prediction via Decoupling of Object Dynamics and Interactions},\n  author    = {Villar-Corrales, Angel and Wahdan, Ismail and Behnke, Sven},\n  booktitle = {2023 IEEE International Conference on Image Processing (ICIP)},\n  pages     = {570--574},\n  year      = {2023},\n  month     = oct,\n  address   = {Kuala Lumpur, Malaysia},\n  publisher = {IEEE},\n  doi       = {10.1109/ICIP49359.2023.10222810}\n}"
+}

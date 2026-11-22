@@ -1,0 +1,24 @@
+{
+  "title": "MSPred: Video Prediction at Multiple Spatio-Temporal Scales with Hierarchical Recurrent Networks",
+  "authors": [
+    "Angel Villar-Corrales*",
+    "Ani Karapetyan*",
+    "Andreas Boltres",
+    "Sven Behnke"
+  ],
+  "venue": "BMVC 2022",
+  "venueFull": "British Machine Vision Conference (BMVC)",
+  "type": "conference",
+  "summary": "MSPred is a hierarchical recurrent video prediction model that forecasts at multiple spatio-temporal scales. It predicts frames over short horizons and abstract representations such as poses or locations further ahead. It outperforms frame-prediction baselines on bin-picking and action-recognition datasets.",
+  "image": "/images/publications/mspred.webp",
+  "links": {
+    "paper": "https://papers.bmvc2022.cvml.group/0034.pdf",
+    "arxiv": "https://arxiv.org/abs/2203.09303",
+    "code": "https://github.com/angelvillar96/MSPred",
+    "project": "https://sites.google.com/view/mspred/home",
+    "video": "https://www.dropbox.com/s/yun0nhe870a2ttr/0034_video.mp4?dl=0",
+    "dataset": "https://github.com/angelvillar96/SynpickVP"
+  },
+  "bibtex": "@inproceedings{villarcorrales2022mspred,\n  author    = {Villar-Corrales, Angel and Karapetyan, Ani and Boltres, Andreas and Behnke, Sven},\n  title     = {{MSPred}: Video Prediction at Multiple Spatio-Temporal Scales with Hierarchical Recurrent Networks},\n  booktitle = {33rd British Machine Vision Conference (BMVC)},\n  address   = {London, UK},\n  publisher = {BMVA Press},\n  year      = {2022},\n  url       = {https://papers.bmvc2022.cvml.group/0034.pdf}\n}",
+  "featured": true
+}

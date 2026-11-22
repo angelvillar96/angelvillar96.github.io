@@ -2,12 +2,13 @@ import type { ReactNode } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 
-export default function Layout({ children }: { children: ReactNode }) {
+export default function Layout({ activePath, children }: { activePath: string; children: ReactNode }) {
   return (
-    <div className="site-frame">
-      <Header />
-      <main>{children}</main>
+    <>
+      <a className="skip-link" href="#content">Skip to content</a>
+      <Header activePath={activePath} />
+      <main id="content" className="container">{children}</main>
       <Footer />
-    </div>
+    </>
   );
 }

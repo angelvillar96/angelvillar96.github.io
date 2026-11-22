@@ -1,9 +1,8 @@
 {
   "title": "TextOCVP",
-  "kicker": "Language + vision · TMLR 2026",
+  "kicker": "Language-guided video prediction · TMLR 2026",
   "description": "Language-guided video generation through compositional object-centric scene representations.",
-  "tags": ["Language", "Generation", "Objects"],
   "href": "https://play-slot.github.io/TextOCVP/",
-  "accent": "violet",
-  "group": "research"
+  "group": "research",
+  "image": "/images/publications/text-ocvp.webp"
 }

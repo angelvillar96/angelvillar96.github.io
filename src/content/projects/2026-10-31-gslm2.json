@@ -1,0 +1,8 @@
+{
+  "title": "GSLM2",
+  "kicker": "Spoken language modeling · FAIR",
+  "description": "Open-source multi-stream speech representations (SpidR 2.0) and generative spoken language models, with released checkpoints.",
+  "href": "https://github.com/facebookresearch/gslm2",
+  "group": "research",
+  "image": "/images/publications/gslm2.webp"
+}

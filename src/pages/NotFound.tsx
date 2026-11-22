@@ -1,11 +1,9 @@
-import { ArrowRight } from '../components/Icons';
-
 export default function NotFound() {
   return (
-    <section className="not-found shell">
-      <p className="eyebrow">404</p>
-      <h1>This page wandered off.</h1>
-      <a className="button primary" href="/">Back home <ArrowRight /></a>
+    <section className="page-header not-found">
+      <h1>Page not found</h1>
+      <p>The page you are looking for does not exist or has moved.</p>
+      <p><a href="/">Go to the home page</a> · <a href="/publications">See publications</a></p>
     </section>
   );
 }

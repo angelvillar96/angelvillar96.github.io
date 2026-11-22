@@ -1,0 +1,21 @@
+{
+  "title": "VideoPCDNet: Video Parsing and Prediction with Phase Correlation Networks",
+  "authors": [
+    "Noel José Rodrigues Vicente",
+    "Enrique Lehner",
+    "Angel Villar-Corrales",
+    "Jan Nogga",
+    "Sven Behnke"
+  ],
+  "venue": "ICANN 2025",
+  "venueFull": "International Conference on Artificial Neural Networks (ICANN)",
+  "type": "conference",
+  "summary": "VideoPCDNet is an unsupervised object-centric framework. It uses frequency-domain phase correlation to break videos into transformed versions of learned object prototypes, which gives interpretable object tracking and future-frame prediction. It outperforms object-centric baselines on several synthetic datasets.",
+  "image": "/images/publications/video-pcdnet.webp",
+  "links": {
+    "paper": "https://doi.org/10.1007/978-3-032-04546-1_35",
+    "arxiv": "https://arxiv.org/abs/2506.19621",
+    "pdf": "https://arxiv.org/pdf/2506.19621"
+  },
+  "bibtex": "@inproceedings{vicente2026videopcdnet,\n  author    = {Vicente, Noel Jos{\\'e} Rodrigues and Lehner, Enrique and Villar-Corrales, Angel and Nogga, Jan and Behnke, Sven},\n  editor    = {Senn, Walter and Sanguineti, Marcello and Saudargiene, Ausra and Tetko, Igor V. and Villa, Alessandro E. P. and Jirsa, Viktor and Bengio, Yoshua},\n  title     = {{VideoPCDNet}: Video Parsing and Prediction with Phase Correlation Networks},\n  booktitle = {Artificial Neural Networks and Machine Learning -- ICANN 2025},\n  series    = {Lecture Notes in Computer Science},\n  volume    = {16069},\n  pages     = {427--443},\n  publisher = {Springer Nature Switzerland},\n  address   = {Cham},\n  year      = {2026},\n  doi       = {10.1007/978-3-032-04546-1_35},\n  isbn      = {978-3-032-04546-1}\n}"
+}

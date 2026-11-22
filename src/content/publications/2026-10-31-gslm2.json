@@ -1,0 +1,35 @@
+{
+  "title": "GSLM2: Multi-Stream Speech Representation Learning and Generative Spoken Language Modeling",
+  "authors": [
+    "Yosuke Higuchi*",
+    "Tom Fizycki*",
+    "Mahi Luthra",
+    "Charles-Éric Saint-James",
+    "Azeez Syed",
+    "Angel Villar-Corrales",
+    "Mido Assran",
+    "Nicolas Ballas",
+    "Jiayi Shen",
+    "Dongyan Lin",
+    "Phillip Rust",
+    "Surya Parimi",
+    "Vanessa Stark",
+    "Alexandre Allauzen",
+    "Balázs Kégl",
+    "Juan Pino",
+    "Emmanuel Dupoux"
+  ],
+  "venue": "arXiv 2026",
+  "venueFull": "arXiv preprint",
+  "type": "preprint",
+  "summary": "GSLM2 pairs SpidR 2.0, a self-supervised encoder that learns discrete speech units at several levels of abstraction, with a multi-stream spoken language model over those units. It improves linguistic competence and data-scaling efficiency up to 6M hours and 6.5B parameters.",
+  "image": "/images/publications/gslm2.webp",
+  "links": {
+    "paper": "https://arxiv.org/abs/2611.01143",
+    "arxiv": "https://arxiv.org/abs/2611.01143",
+    "pdf": "https://arxiv.org/pdf/2611.01143",
+    "code": "https://github.com/facebookresearch/gslm2",
+    "model": "https://github.com/facebookresearch/gslm2/blob/main/docs/model-zoo.md"
+  },
+  "bibtex": "@article{higuchi_fizycki2026gslm2,\n  title={GSLM2: Multi-Stream Speech Representation Learning and Generative Spoken Language Modeling},\n  author={Yosuke Higuchi and Tom Fizycki and Mahi Luthra and Charles-Éric Saint-James and Azeez Syed and Angel Villar-Corrales and Mido Assran and Nicolas Ballas and Jiayi Shen and Dongyan Lin and Phillip Rust and Surya Parimi and Vanessa Stark and Alexandre Allauzen and Balázs Kégl and Juan Pino and Emmanuel Dupoux},\n  journal={arXiv preprint arXiv:2611.01143},\n  year={2026},\n}"
+}

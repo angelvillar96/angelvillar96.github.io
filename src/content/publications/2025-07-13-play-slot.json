@@ -1,10 +1,25 @@
 {
   "title": "PlaySlot: Learning Inverse Latent Dynamics for Controllable Object-Centric Video Prediction and Planning",
-  "authors": "A. Villar-Corrales, S. Behnke",
-  "venue": "ICML",
-  "tags": ["Object-centric learning", "Video prediction", "Robotics"],
-  "paper": "https://arxiv.org/abs/2502.07600",
-  "code": "https://github.com/angelvillar96/PlaySlot",
-  "project": "https://play-slot.github.io/PlaySlot/",
+  "authors": [
+    "Angel Villar-Corrales",
+    "Sven Behnke"
+  ],
+  "venue": "ICML 2025",
+  "venueFull": "International Conference on Machine Learning (ICML)",
+  "type": "conference",
+  "summary": "PlaySlot is an object-centric video prediction model that infers object slots and latent actions from unlabeled videos. It can generate several controllable futures, and its inferred actions let robots learn behaviors sample-efficiently from unlabeled demonstrations.",
+  "image": "/images/publications/play-slot.webp",
+  "links": {
+    "paper": "https://proceedings.mlr.press/v267/villar-corrales25a.html",
+    "arxiv": "https://arxiv.org/abs/2502.07600",
+    "pdf": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/villar-corrales25a/villar-corrales25a.pdf",
+    "code": "https://github.com/angelvillar96/PlaySlot",
+    "project": "https://play-slot.github.io/PlaySlot/",
+    "demo": "https://huggingface.co/spaces/angelvillar96/PlaySlotDemo",
+    "video": "https://slideslive.com/39039472",
+    "poster": "https://icml.cc/media/PosterPDFs/ICML%202025/45399.png",
+    "dataset": "https://huggingface.co/angelvillar96/PlaySlot_Resources"
+  },
+  "bibtex": "@InProceedings{pmlr-v267-villar-corrales25a,\n  title     = {{P}lay{S}lot: Learning Inverse Latent Dynamics for Controllable Object-Centric Video Prediction and Planning},\n  author    = {Villar-Corrales, Angel and Behnke, Sven},\n  booktitle = {Proceedings of the 42nd International Conference on Machine Learning},\n  pages     = {61534--61563},\n  year      = {2025},\n  editor    = {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry},\n  volume    = {267},\n  series    = {Proceedings of Machine Learning Research},\n  month     = {13--19 Jul},\n  publisher = {PMLR},\n  pdf       = {https://raw.githubusercontent.com/mlresearch/v267/main/assets/villar-corrales25a/villar-corrales25a.pdf},\n  url       = {https://proceedings.mlr.press/v267/villar-corrales25a.html}\n}",
   "featured": true
 }

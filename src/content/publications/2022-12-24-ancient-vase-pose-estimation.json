@@ -1,0 +1,25 @@
+{
+  "title": "Enhancing Human Pose Estimation in Ancient Vase Paintings via Perceptually-grounded Style Transfer Learning",
+  "authors": [
+    "Prathmesh Madhu*",
+    "Angel Villar-Corrales*",
+    "Ronak Kosti",
+    "Torsten Bendschus",
+    "Corinna Reinhardt",
+    "Peter Bell",
+    "Andreas Maier",
+    "Vincent Christlein"
+  ],
+  "venue": "ACM JOCCH 2022",
+  "venueFull": "ACM Journal on Computing and Cultural Heritage (JOCCH)",
+  "type": "journal",
+  "summary": "Improves human pose estimation on ancient Greek vase paintings by fine-tuning on COCO person images style-transferred to the vase domain with a perceptually-grounded style-transfer loss. Further fine-tuning on a new annotated dataset (ClassArch) adds more gains; overall mAP and mAR rise by over 6%.",
+  "image": "/images/publications/ancient-vase-pose-estimation.webp",
+  "links": {
+    "paper": "https://doi.org/10.1145/3569089",
+    "arxiv": "https://arxiv.org/abs/2012.05616",
+    "pdf": "https://arxiv.org/pdf/2012.05616",
+    "code": "https://github.com/angelvillar96/STLPose"
+  },
+  "bibtex": "@article{madhu2022enhancing,\n  author     = {Madhu, Prathmesh and Villar-Corrales, Angel and Kosti, Ronak and Bendschus, Torsten and Reinhardt, Corinna and Bell, Peter and Maier, Andreas and Christlein, Vincent},\n  title      = {Enhancing Human Pose Estimation in Ancient Vase Paintings via Perceptually-grounded Style Transfer Learning},\n  journal    = {Journal on Computing and Cultural Heritage},\n  volume     = {16},\n  number     = {1},\n  articleno  = {16},\n  numpages   = {17},\n  pages      = {1--17},\n  year       = {2022},\n  issue_date = {March 2023},\n  issn       = {1556-4711},\n  publisher  = {Association for Computing Machinery},\n  doi        = {10.1145/3569089}\n}"
+}

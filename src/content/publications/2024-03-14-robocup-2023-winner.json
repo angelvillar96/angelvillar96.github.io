@@ -1,0 +1,27 @@
+{
+  "title": "RoboCup 2023 Humanoid AdultSize Winner NimbRo: NimbRoNet3 Visual Perception and Responsive Gait with Waveform In-Walk Kicks",
+  "authors": [
+    "Dmytro Pavlichenko",
+    "Grzegorz Ficht",
+    "Angel Villar-Corrales",
+    "Luis Denninger",
+    "Julia Brocker",
+    "Tim Sinen",
+    "Michael Schreiber",
+    "Sven Behnke"
+  ],
+  "venue": "RoboCup 2023",
+  "venueFull": "RoboCup 2023: Robot World Cup XXVI (Springer LNCS)",
+  "type": "conference",
+  "summary": "Describes the upgrades behind team NimbRo's win in the RoboCup 2023 Humanoid AdultSize soccer tournament: the NimbRoNet3 visual perception model, extended fused-angle feedback with an added COM-ZMP controller for robust walking, and parametric waveform-based in-walk kicks.",
+  "image": "/images/publications/robocup-2023-winner.webp",
+  "links": {
+    "paper": "https://doi.org/10.1007/978-3-031-55015-7_28",
+    "arxiv": "https://arxiv.org/abs/2401.05909",
+    "pdf": "https://arxiv.org/pdf/2401.05909",
+    "code": "https://github.com/angelvillar96/NimbRoNet3",
+    "project": "https://www.ais.uni-bonn.de/nimbro/Humanoid/",
+    "video": "https://www.ais.uni-bonn.de/nimbro/Humanoid/videos/RoboCup_2023_NimbRo_Humanoid_AdultSize_Highlights.mp4"
+  },
+  "bibtex": "@inproceedings{pavlichenko2024robocup2023,\n  title     = {{RoboCup} 2023 Humanoid {AdultSize} Winner {NimbRo}: {NimbRoNet3} Visual Perception and Responsive Gait with Waveform In-Walk Kicks},\n  author    = {Pavlichenko, Dmytro and Ficht, Grzegorz and Villar-Corrales, Angel and Denninger, Luis and Brocker, Julia and Sinen, Tim and Schreiber, Michael and Behnke, Sven},\n  booktitle = {RoboCup 2023: Robot World Cup XXVI},\n  editor    = {Buche, C{\\'e}dric and Rossi, Alessandra and Sim{\\~o}es, Marco and Visser, Ubbo},\n  series    = {Lecture Notes in Computer Science},\n  volume    = {14140},\n  pages     = {337--349},\n  publisher = {Springer},\n  address   = {Cham},\n  year      = {2024},\n  doi       = {10.1007/978-3-031-55015-7_28}\n}"
+}

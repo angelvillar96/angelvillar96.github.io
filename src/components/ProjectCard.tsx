@@ -1,24 +1,35 @@
+import { useId } from 'react';
 import type { Project } from '../content/types';
-import { ArrowUpRight } from './Icons';
 
 export default function ProjectCard({ project }: { project: Project }) {
-  return (
-    <a className="project-card" href={project.href} target="_blank" rel="noreferrer">
-      <div className={`project-visual ${project.accent}`} aria-hidden="true">
-        <div className="visual-orbit" />
-        <span>{project.title.slice(0, 2).toUpperCase()}</span>
-      </div>
-      <div className="project-copy">
-        <p className="project-kicker">{project.kicker}</p>
-        <div className="project-title-row">
-          <h3>{project.title}</h3>
-          <ArrowUpRight />
+  const id = useId();
+  const body = (
+    <>
+      {project.image && (
+        <div className="project-media">
+          <img src={project.image} alt="" loading="lazy" decoding="async" />
         </div>
-        <p>{project.description}</p>
-        <ul className="tag-list" aria-label="Topics">
-          {project.tags.map((tag) => <li key={tag}>{tag}</li>)}
-        </ul>
+      )}
+      <div className="project-body">
+        <p className="project-kicker">{project.kicker}</p>
+        <h3 id={`${id}-title`}>{project.title}</h3>
+        <p id={`${id}-description`}>{project.description}</p>
       </div>
+    </>
+  );
+
+  return project.href ? (
+    <a
+      className="project-card"
+      href={project.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-labelledby={`${id}-title`}
+      aria-describedby={`${id}-description`}
+    >
+      {body}
     </a>
+  ) : (
+    <div className="project-card">{body}</div>
   );
 }

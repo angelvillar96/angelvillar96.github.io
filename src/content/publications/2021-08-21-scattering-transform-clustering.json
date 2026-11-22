@@ -1,0 +1,20 @@
+{
+  "title": "Scattering Transform Based Image Clustering using Projection onto Orthogonal Complement",
+  "authors": [
+    "Angel Villar-Corrales",
+    "Veniamin I. Morgenshtern"
+  ],
+  "venue": "ICDAR @ ICMR 2021",
+  "venueFull": "ACM Workshop on Intelligent Cross-Data Analysis and Retrieval (ICDAR) at ICMR",
+  "type": "workshop",
+  "highlight": "Best Paper Award",
+  "summary": "Proposes Projected-Scattering Spectral Clustering (PSSC), an interpretable image clustering method. It projects scattering-transform features onto the orthogonal complement of subspaces shared across classes, then applies spectral clustering. PSSC is the best shallow method and over 10x faster than comparable deep methods.",
+  "image": "/images/publications/scattering-transform-clustering.webp",
+  "links": {
+    "paper": "https://doi.org/10.1145/3463944.3469098",
+    "arxiv": "https://arxiv.org/abs/2011.11586",
+    "pdf": "https://arxiv.org/pdf/2011.11586",
+    "code": "https://github.com/vmorgenshtern/scattering-clustering"
+  },
+  "bibtex": "@inproceedings{villarcorrales2021scattering,\n  author    = {Villar-Corrales, Angel and Morgenshtern, Veniamin I.},\n  title     = {Scattering Transform Based Image Clustering using Projection onto Orthogonal Complement},\n  booktitle = {Proceedings of the 2021 ACM Workshop on Intelligent Cross-Data Analysis and Retrieval},\n  series    = {ICDAR '21},\n  pages     = {24--32},\n  year      = {2021},\n  month     = aug,\n  address   = {Taipei, Taiwan},\n  publisher = {Association for Computing Machinery},\n  doi       = {10.1145/3463944.3469098}\n}"
+}

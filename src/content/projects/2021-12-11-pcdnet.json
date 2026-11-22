@@ -2,8 +2,7 @@
   "title": "PCDNet",
   "kicker": "Image decomposition · VISAPP 2022",
   "description": "Unsupervised image decomposition into transformed instances of learned object prototypes.",
-  "tags": ["Decomposition", "Phase correlation", "PyTorch"],
   "href": "https://github.com/AIS-Bonn/Unsupervised-Decomposition-PCDNet",
-  "accent": "violet",
-  "group": "research"
+  "group": "research",
+  "image": "/images/publications/pcdnet.webp"
 }

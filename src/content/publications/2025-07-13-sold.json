@@ -1,7 +1,25 @@
 {
   "title": "SOLD: Slot Object-Centric Latent Dynamics Models for Relational Manipulation Learning from Pixels",
-  "authors": "M. Mosbach, J. N. Ewertz, A. Villar-Corrales, S. Behnke",
-  "venue": "ICML",
-  "tags": ["Object-centric learning", "Robotics"],
-  "paper": "https://arxiv.org/abs/2410.08822"
+  "authors": [
+    "Malte Mosbach*",
+    "Jan Niklas Ewertz*",
+    "Angel Villar-Corrales",
+    "Sven Behnke"
+  ],
+  "venue": "ICML 2025",
+  "venueFull": "International Conference on Machine Learning (ICML)",
+  "type": "conference",
+  "summary": "SOLD is a model-based reinforcement learning method that learns object-centric, slot-based latent dynamics from pixels without supervision. It outperforms DreamerV3 and TD-MPC2 on robot tasks that need relational reasoning and manipulation.",
+  "image": "/images/publications/sold.webp",
+  "links": {
+    "paper": "https://proceedings.mlr.press/v267/mosbach25a.html",
+    "arxiv": "https://arxiv.org/abs/2410.08822",
+    "pdf": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/mosbach25a/mosbach25a.pdf",
+    "code": "https://github.com/maltemosbach/sold",
+    "project": "https://slot-latent-dynamics.github.io/",
+    "video": "https://slideslive.com/39040607",
+    "poster": "https://icml.cc/media/PosterPDFs/ICML%202025/44962.png",
+    "model": "https://github.com/maltemosbach/sold/tree/master/checkpoints"
+  },
+  "bibtex": "@InProceedings{pmlr-v267-mosbach25a,\n  title     = {{SOLD}: Slot Object-Centric Latent Dynamics Models for Relational Manipulation Learning from Pixels},\n  author    = {Mosbach, Malte and Ewertz, Jan Niklas and Villar-Corrales, Angel and Behnke, Sven},\n  booktitle = {Proceedings of the 42nd International Conference on Machine Learning},\n  pages     = {44911--44935},\n  year      = {2025},\n  editor    = {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry},\n  volume    = {267},\n  series    = {Proceedings of Machine Learning Research},\n  month     = {13--19 Jul},\n  publisher = {PMLR},\n  pdf       = {https://raw.githubusercontent.com/mlresearch/v267/main/assets/mosbach25a/mosbach25a.pdf},\n  url       = {https://proceedings.mlr.press/v267/mosbach25a.html}\n}"
 }

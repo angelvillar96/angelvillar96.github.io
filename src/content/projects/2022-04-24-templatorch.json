@@ -2,8 +2,6 @@
   "title": "TemplaTorch",
   "kicker": "Developer tools · PyTorch",
   "description": "A simple project template for consistent, quick deep-learning prototyping and experimentation.",
-  "tags": ["PyTorch", "Template", "Open source"],
   "href": "https://github.com/angelvillar96/TemplaTorch",
-  "accent": "blue",
   "group": "other"
 }

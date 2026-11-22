@@ -1,7 +1,20 @@
 {
   "title": "Slot-MPC: Goal-Conditioned Model Predictive Control with Object-Centric Representations",
-  "authors": "J. Spieler, A. Villar-Corrales, S. Behnke",
-  "venue": "Preprint",
-  "tags": ["Object-centric learning", "Control"],
-  "paper": "https://arxiv.org/abs/2605.14937"
+  "authors": [
+    "Jonathan Spieler",
+    "Angel Villar-Corrales",
+    "Sven Behnke"
+  ],
+  "venue": "arXiv 2026",
+  "venueFull": "arXiv preprint",
+  "type": "preprint",
+  "summary": "Slot-MPC is an object-centric world model. It learns slot-based object representations and an action-conditioned slot dynamics model, then plans actions with gradient-based model predictive control. On simulated manipulation tasks it improves task performance and planning efficiency over non-object-centric baselines.",
+  "image": "/images/publications/slot-mpc.webp",
+  "links": {
+    "paper": "https://arxiv.org/abs/2605.14937",
+    "arxiv": "https://arxiv.org/abs/2605.14937",
+    "pdf": "https://arxiv.org/pdf/2605.14937",
+    "project": "https://slot-mpc.github.io/"
+  },
+  "bibtex": "@misc{spieler2026slotmpc,\n  title         = {{Slot-MPC}: Goal-Conditioned Model Predictive Control with Object-Centric Representations},\n  author        = {Jonathan Spieler and Angel Villar-Corrales and Sven Behnke},\n  year          = {2026},\n  eprint        = {2605.14937},\n  archivePrefix = {arXiv},\n  primaryClass  = {cs.LG},\n  url           = {https://arxiv.org/abs/2605.14937}\n}"
 }

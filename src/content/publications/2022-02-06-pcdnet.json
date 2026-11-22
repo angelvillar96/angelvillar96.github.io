@@ -1,0 +1,19 @@
+{
+  "title": "Unsupervised Image Decomposition with Phase-Correlation Networks",
+  "authors": [
+    "Angel Villar-Corrales",
+    "Sven Behnke"
+  ],
+  "venue": "VISAPP 2022",
+  "venueFull": "International Conference on Computer Vision Theory and Applications (VISAPP)",
+  "type": "conference",
+  "summary": "Introduces PCDNet, which decomposes a scene into transformed versions of learned object prototypes. Its core is a frequency-domain Phase-Correlation Cell. PCDNet beats prior methods on unsupervised object discovery and segmentation benchmarks while using few parameters and staying fully interpretable.",
+  "image": "/images/publications/pcdnet.webp",
+  "links": {
+    "paper": "https://doi.org/10.5220/0010919100003124",
+    "arxiv": "https://arxiv.org/abs/2110.03473",
+    "pdf": "https://arxiv.org/pdf/2110.03473",
+    "code": "https://github.com/AIS-Bonn/Unsupervised-Decomposition-PCDNet"
+  },
+  "bibtex": "@conference{visapp22,\n  author       = {Angel Villar{-}Corrales and Sven Behnke},\n  title        = {Unsupervised Image Decomposition with Phase-Correlation Networks},\n  booktitle    = {Proceedings of the 17th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications (VISIGRAPP 2022) - Volume 4: VISAPP},\n  year         = {2022},\n  pages        = {224-235},\n  publisher    = {SciTePress},\n  organization = {INSTICC},\n  doi          = {10.5220/0010919100003124},\n  isbn         = {978-989-758-555-5},\n  issn         = {2184-4321}\n}"
+}

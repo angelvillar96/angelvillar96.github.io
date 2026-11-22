@@ -1,7 +1,0 @@
-{
-  "title": "VideoPCDNet: Video Parsing and Prediction with Phase Correlation Networks",
-  "authors": "N. J. R. Vicente, E. Lehner, A. Villar-Corrales, J. Nogga, S. Behnke",
-  "venue": "ICANN",
-  "tags": ["Video prediction", "Scene decomposition"],
-  "paper": "https://arxiv.org/abs/2506.19621"
-}

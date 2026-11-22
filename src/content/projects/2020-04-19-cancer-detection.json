@@ -2,8 +2,6 @@
   "title": "Cancer Detection",
   "kicker": "Kaggle · Top 5%",
   "description": "Convolutional networks trained to identify cancer in histopathology image patches.",
-  "tags": ["Medical imaging", "Classification", "Kaggle"],
   "href": "https://www.kaggle.com/c/histopathologic-cancer-detection",
-  "accent": "green",
   "group": "other"
 }

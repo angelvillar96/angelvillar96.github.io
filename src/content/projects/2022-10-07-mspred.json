@@ -2,8 +2,7 @@
   "title": "MSPred",
   "kicker": "Video prediction · BMVC 2022",
   "description": "Hierarchical recurrent networks that forecast video at multiple spatial and temporal scales.",
-  "tags": ["Prediction", "Multi-scale", "PyTorch"],
   "href": "https://sites.google.com/view/mspred/home",
-  "accent": "orange",
-  "group": "research"
+  "group": "research",
+  "image": "/images/publications/mspred.webp"
 }

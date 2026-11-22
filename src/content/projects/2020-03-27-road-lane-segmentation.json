@@ -2,8 +2,5 @@
   "title": "Road Lane Segmentation",
   "kicker": "Computer vision · Coursework",
   "description": "A convolutional network trained on a custom synthetic dataset to recognize road-lane markings.",
-  "tags": ["Segmentation", "Synthetic data", "PyTorch"],
-  "href": "https://github.com/angelvillar96",
-  "accent": "orange",
   "group": "other"
 }
